@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #FFFFFF;
+  font-family: SF Pro Text;
+  line-height: 10px;
+  font-size: 10px;
+  letter-spacing: -0.0241176em;
+}
+
+h1, h2 {
+  line-height: 2.2em;
+}
+
+h1 {
+  font-size: 1.7em;
+}
+
+h2 {
+  font-size: 1.2em;
+}
+
+nav {
+  width: 100%;
+  height: 9.6%;
+  background-color: #F8F8F8;
+  box-shadow: 0% 0.5% 0% rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(27.1828px);
+}
+
+.status-bar {
+  width: 100%;
+  height: 3%;
+}
+
+.hierarchical-bar {
+  width: 100%;
+  height: 6.6%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.left {
+  width: 3.27%;
+  margin-left: 2.29%;
+}
+
+.option {
+  width: 20%;
+  margin-left: 1.64%;
+  color: #007AFF;
+}
+
+.title {
+  width: 40%;
+  margin-left: 2.8%;
+  font-weight: 500;
+  text-align: center;
+  color: #000000;
+}
+
+.bus {
+  background-color: #FFFFFF;
+  padding-top: 2.3%;
+  padding-bottom: 2.5%;
+  border-bottom: 1px solid #BCBBC1;
+}
+
+.line {
+  width: 9.33%;
+  margin-left: 2.66%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.destination {
+  width: 50%;
+  margin-left: 2.66%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.time {
+  width: 30%;
+  margin-right: 4.27%;
+  float: right;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.destination h1 {
+  font-weight: 600;
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+  line-height: 1.7em;
+}
+
+.destination h2 {
+  color: #000000;
+  margin-top: 0%;
+  padding-top: 0%;
+  line-height: 1.2em;
+}
+
+.time h1 {
+  text-align: right;
+  color: #007AFF;
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+  line-height: 1.7em;
+}
+
+.time h2 {
+  text-align: right;
+  color: #8E8E93;
+  margin-top: 0%;
+  padding-top: 0%;
+  line-height: 1.2em;
+}
+
+.oos h1 {
+  color: #8A8A8F;
+}
+
+.reroute h1 {
+  color: #FF3B30;
+}
